@@ -33,4 +33,4 @@ Two pointers: Allows independent movement of the pointers, move freely base on w
 In programming, pointers (or variables acting as pointers in high-level languages) are variables that keep track of which index you're currently at in a string or array. These variables (such as `sPointer` and `tPointer`) hold integer values that represent the current index of the characters you are comparing in strings `s` and `t`.
 
 ### boolean and return
-`return sPointer == len(s)` return the comparison result of whether this statement is True of False
+`return sPointer == len(s)` return the comparison result(T or F) of whether this statement is `True` of `False`
