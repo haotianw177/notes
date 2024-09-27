@@ -24,8 +24,9 @@
  -->
 
 ### access index elements    
-The notation `dummy[i]` (dummy means dummy variable) is a common way across many programming languages to  access an element at a specific index i in a collection, whether that collection is a string, list, array, or even some other data structure that supports indexing.
+The notation `dummy[i]` (dummy means dummy variable) is a common way across many programming languages to access an element at a specific index i in a collection, whether that collection is a string, list, array, or even some other data structure that supports indexing.
 
 ### two pointers:
 Single `i` in a loop: Locks you into comparing at the same index.\
-Two pointers: Allows independent movement of the pointers, move freely base on whatever condition.
+Two pointers: Allows independent movement of the pointers, move freely base on whatever condition.//
+In programming, pointers (or variables acting as pointers in high-level languages) are variables that keep track of which index you're currently at in a string or array. These variables (such as `sPointer` and `tPointer`) hold integer values that represent the current index of the characters you are comparing in strings `s` and `t`.
