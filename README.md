@@ -34,3 +34,5 @@ In programming, pointers (or variables acting as pointers in high-level language
 
 ### boolean and return
 `return sPointer == len(s)` return the comparison result(T or F) of whether this statement is `True` of `False`
+
+<!-- x -->
