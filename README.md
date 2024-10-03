@@ -37,6 +37,8 @@ dictionary['a'] -= 1  # Decreases the value of 'a' by 1
 print(dictionary)  # Output: {'a': 1, 'b': 1} 
 ```
 
+The grammar syntax `dummy[i]` always accesses the value at the specified index or key in the collection. Whether it's a list, string, or dictionary, this notation retrieves the value at the given location (position or key). The value you're accessing depends on the data structure, but it’s always the value, not the element or key itself.
+
 ### two pointers:
 Single `i` in a loop: Locks you into comparing at the same index.\
 Two pointers: Allows independent movement of the pointers, move freely base on whatever condition.
