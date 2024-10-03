@@ -29,12 +29,13 @@ The notation `dummy[i]` (dummy means dummy variable) is a common way across many
 In lists/arrays/strings, `dummy[i]` accesses the element at index `i`.
 In dictionaries, `dummy[i]` accesses the value associated with the key `i`
 
-`dictionary = {'a': 2, 'b': 1}  # Initial state of the dictionary
+```
+dictionary = {'a': 2, 'b': 1}  # Initial state of the dictionary
 
 dictionary['a'] -= 1  # Decreases the value of 'a' by 1
 
-print(dictionary)  # Output: {'a': 1, 'b': 1}
-`
+print(dictionary)  # Output: {'a': 1, 'b': 1} 
+```
 
 ### two pointers:
 Single `i` in a loop: Locks you into comparing at the same index.\
