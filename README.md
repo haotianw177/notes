@@ -24,10 +24,10 @@
  -->
 
 ### access index elements    
-The notation `dummy[i]` (dummy means dummy variable) is a common way across many programming languages to access an element at a specific index `i` in a collection, whether that collection is a string, list, array, or even some other data structure that supports indexing.
+The notation `dummy[i]` (where "dummy" is a placeholder variable name) is a common way across many programming languages to access an element at a specific index i in a collection, whether that collection is a string, list, array, or another data structure that supports indexing or key-based access.
 
-In lists/arrays/strings, `dummy[i]` accesses the element at index `i`.
-In dictionaries, `dummy[i]` accesses the value associated with the key `i`
+In lists/arrays/strings, `dummy[i]` accesses the element at index i (the numerical position).
+In dictionaries, `dummy[i] `accesses the value associated with the key i (since dictionaries use keys, not indices).
 
 ```
 dictionary = {'a': 2, 'b': 1}  # Initial state of the dictionary
@@ -37,7 +37,7 @@ dictionary['a'] -= 1  # Decreases the value of 'a' by 1
 print(dictionary)  # Output: {'a': 1, 'b': 1} 
 ```
 
-The grammar syntax `dummy[i]` always accesses the value at the specified index or key in the collection. Whether it's a list, string, or dictionary, this notation retrieves the value at the given location (position or key). The value you're accessing depends on the data structure, but it’s always the value, not the element or key itself.
+The syntax `dummy[i]` always accesses the value at the specified index (in lists, arrays, and strings) or key (in dictionaries). Whether it's a list, string, or dictionary, this notation retrieves the value at the given location (position or key). The value you're accessing depends on the data structure, but it’s always the value, not the element or key itself.
 
 ### two pointers:
 Single `i` in a loop: Locks you into comparing at the same index.\
