@@ -23,7 +23,7 @@
 
  -->
 
-### access index elements    
+### access index elements and it's value   
 The notation `dummy[i]` (where "dummy" is a placeholder variable name) is a common way across many programming languages to access an element at a specific index i in a collection, whether that collection is a string, list, array, or another data structure that supports indexing or key-based access.
 
 In lists/arrays/strings, `dummy[i]` accesses the element at index i (the numerical position).
